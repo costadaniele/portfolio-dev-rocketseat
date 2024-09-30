@@ -1,14 +1,11 @@
 .services {
   background-color: var(--gray-100);
-  /* margin: 88px 239px 239px 120px; */
-  /* margin: 0 auto; */
   padding-top: 88px;
   padding-bottom: 120px;
 }
 
 .services header {
   text-align: center;
-  /* margin-top: 88px; */
 }
 
 .services header h2 {
