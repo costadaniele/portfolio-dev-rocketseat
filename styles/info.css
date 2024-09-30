@@ -60,12 +60,14 @@
   gap: 8px;
 }
 
-.down img {
+
+.arrow-down img {
   margin: auto;
   display: block;
-  margin-bottom: 57px;
+  margin-bottom: 94px;
   /* color: var(--gray-600); */
 }
+
 
 
 

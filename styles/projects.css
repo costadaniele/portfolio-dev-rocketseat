@@ -1,6 +1,10 @@
+.projects {
+  padding-top: 72px;
+}
+
 .projects header {
   text-align: center;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 
 .projects header h2 {

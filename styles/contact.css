@@ -32,18 +32,45 @@
   display: inline-block;
 }
 
-.contact .links {
+.contact .social-button {
   display: grid;
   justify-content: center;
+  /* align-items: center; */
 }
 
-.contact .links ul li {
+.contact .social-button ul li {
   background-color: var(--gray-300);
   padding: 20px;
-  display: grid;
-  width: 400px;
+  display: flex;
+  width: 300px;
   margin-bottom: 16px;  
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 8px;
+  align-items: center;
 }
+
+.contact .social-button ul li .name img {
+  width: 28px;
+  height: 28px;
+  color: var(--gray-500);
+}
+
+.contact .social-button p {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.contact .social-button ul li .arrow-button a img {
+  transform: rotate(315deg);
+  width: 20px;
+  height: 20px;
+  color: var(--blue);
+}
+
+.contact .social-button ul li .icon-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 
