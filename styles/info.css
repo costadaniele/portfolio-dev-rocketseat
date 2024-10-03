@@ -60,13 +60,56 @@
   gap: 8px;
 }
 
+/* Icon */
 
-.arrow-down img {
-  margin: auto;
+.icon-github {
+  svg path {
+    fill: var(--gray-500);
+  }
+}
+
+.icon-html {
+  svg path {
+    fill: var(--red);
+  }
+}
+
+.icon-css {
+  svg path {
+    fill: var(--blue);
+  }
+}
+
+.icon-js {
+  svg path {
+    fill: var(--yellow);
+  }
+}
+
+.icon-react {
+  svg path {
+    fill: var(--blue);
+  }
+}
+
+.icon-node {
+  svg path {
+    fill: var(--green);
+  }
+}
+
+.arrow-down {
+  svg path {
+    fill: var(--gray-400);
+  }
+
+  text-align: center;
   display: block;
   margin-bottom: 94px;
-  /* color: var(--gray-600); */
 }
+
+
+
 
 
 

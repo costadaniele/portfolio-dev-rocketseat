@@ -37,17 +37,35 @@
   padding: 20px;
 }
 
-.services .grid .card img {
+.services .grid .card {
   margin-bottom: 20px;
 }
 
 .services .grid .card h4 {
   font: var(--title-sm);
   color: var(--gray-600);
-  margin-bottom: 8px;
+  margin-block: 20px 8px;
 }
 
 .services .grid .card p {
   font: var(--text-sm);
   color: var(--gray-500);
+}
+
+.grid .icon-devices {
+  svg path {
+    fill: var(--purple);
+  }
+}
+
+.grid .icon-hard-drives {
+  svg path {
+    fill: var(--yellow);
+  }
+}
+
+.grid .icon-infinity {
+  svg path {
+    fill: var(--green);
+  }
 }
